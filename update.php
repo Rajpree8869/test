@@ -77,14 +77,14 @@ foreach ($products as &$product) {
 }
 
 if (!$found) {
-    // http_response_code(404);
+    http_response_code(404);
     echo json_encode(["status" => "error", "message" => "Product not found"]);
     exit;
 }
 
 file_put_contents($file, json_encode($products, JSON_PRETTY_PRINT));
 
-// http_response_code(200);
+http_response_code(200);
 echo json_encode([
     "status" => "success",
     "message" => "Product updated successfully",
