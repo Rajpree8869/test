@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "computer",
+        "description": "Gaming Laptop",
+        "price": 80000,
+        "quantity": 7,
+        "0": 80000,
+        "1": 7,
+        "2": {
+            "price": 80000
+        },
+        "3": {
+            "price": 80000
+        }
+    },
+    {
+        "id": 2,
+        "name": "testing",
+        "description": "Gaming Laptop",
+        "price": 75000,
+        "quantity": 10
+    }
+]
