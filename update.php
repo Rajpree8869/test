@@ -83,7 +83,6 @@ if (!$found) {
 }
 
 file_put_contents($file, json_encode($products, JSON_PRETTY_PRINT));
-
 http_response_code(200);
 echo json_encode([
     "status" => "success",
